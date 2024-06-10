@@ -6,20 +6,20 @@ To ensure the quality and functionality of the To-Do List application, follow th
 
   1. Unit Testing:
    - Components: Test each React component separately using a testing library like Jest with React Testing Library.
-       -Verify the rendering of components like the task input, buttons, task list, and filter/sort controls.
-       -Check state changes (e.g., adding, removing, completing tasks).
+       - Verify the rendering of components like the task input, buttons, task list, and filter/sort controls.
+       - Check state changes (e.g., adding, removing, completing tasks).
      
   2. Functional Testing:
    - Adding Tasks:
-       -Enter a task in the input field and click the "Add" button.
-       -Verify that the task appears in the list and the input field is cleared.
+       - Enter a task in the input field and click the "Add" button.
+       - Verify that the task appears in the list and the input field is cleared.
    - Removing Tasks:
-       -Add a few tasks, then click the "Remove" button next to a task.
-       -Ensure the task is removed from the list.
+       - Add a few tasks, then click the "Remove" button next to a task.
+       - Ensure the task is removed from the list.
    - Marking Tasks as Complete:
-       -Add tasks and click the "Complete" button next to a task.
-       -Verify that the task is marked as completed (e.g., background color changes).
-       -Click "Undo" to unmark the task and verify the state change.
+       - Add tasks and click the "Complete" button next to a task.
+       - Verify that the task is marked as completed (e.g., background color changes).
+       - Click "Undo" to unmark the task and verify the state change.
      
   3. Validation Testing:
 Empty Task Input:
