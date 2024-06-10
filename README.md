@@ -36,27 +36,30 @@ To ensure the quality and functionality of the To-Do List application, follow th
    - Sort Tasks:
        - Add tasks in random order.
        - Change the sort order (Ascending, Descending) and ensure tasks are sorted alphabetically based on the selected order.
-  5. LocalStorage Testing
+         
+  5. LocalStorage Testing:
    - Data Persistence:
        - Add, complete, and remove tasks.
        - Refresh the browser and ensure the tasks persist as expected (tasks should be retrieved from localStorage).
        - Clear localStorage and verify the application handles the absence of tasks correctly.
          
   6. UI/UX Testing:
-Responsive Design:
-Test the application on different screen sizes (mobile, tablet, desktop).
-Ensure the layout is responsive and elements are displayed correctly.
-Visual Appearance:
-Verify the background image, color scheme, and overall visual appearance across different devices and browsers.
-Check hover effects on buttons and the visual distinction between completed and incomplete tasks.
-7. Performance Testing
-Task Load:
-Add a large number of tasks and verify the application's performance.
-Ensure there is no significant lag or delay in rendering tasks.
-8. Cross-Browser Testing
-Compatibility:
-Test the application on different browsers (Chrome, Firefox, Safari, Edge).
-Ensure consistent behavior and appearance across all supported browsers.
+   - Responsive Design:
+       - Test the application on different screen sizes (mobile, tablet, desktop).
+       - Ensure the layout is responsive and elements are displayed correctly.
+   - Visual Appearance:
+       - Verify the background image, color scheme, and overall visual appearance across different devices and browsers.
+       - Check hover effects on buttons and the visual distinction between completed and incomplete tasks.
+         
+  7. Performance Testing:
+   - Task Load:
+       - Add a large number of tasks and verify the application's performance.
+       - Ensure there is no significant lag or delay in rendering tasks.
+         
+  8. Cross-Browser Testing:
+   - Compatibility:
+       - Test the application on different browsers (Chrome, Firefox, Safari, Edge).
+       - Ensure consistent behavior and appearance across all supported browsers.
 
 # Getting Started with Create React App
 
