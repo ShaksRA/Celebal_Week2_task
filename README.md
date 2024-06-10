@@ -22,25 +22,27 @@ To ensure the quality and functionality of the To-Do List application, follow th
        - Click "Undo" to unmark the task and verify the state change.
      
   3. Validation Testing:
-Empty Task Input:
-Try adding an empty task.
-Ensure no task is added and proper validation messages are displayed if implemented.
-Duplicate Tasks:
-Add the same task multiple times.
-Check how duplicates are handled, if applicable.
-4. Filtering and Sorting Testing
-Filter Tasks:
-Add tasks and mark some as complete.
-Use the filter options (All, Completed, Incomplete) and verify that the task list displays correctly according to the selected filter.
-Sort Tasks:
-Add tasks in random order.
-Change the sort order (Ascending, Descending) and ensure tasks are sorted alphabetically based on the selected order.
-5. LocalStorage Testing
-Data Persistence:
-Add, complete, and remove tasks.
-Refresh the browser and ensure the tasks persist as expected (tasks should be retrieved from localStorage).
-Clear localStorage and verify the application handles the absence of tasks correctly.
-6. UI/UX Testing
+   - Empty Task Input:
+       - Try adding an empty task.
+       - Ensure no task is added and proper validation messages are displayed if implemented.
+   - Duplicate Tasks:
+       - Add the same task multiple times.
+       - Check how duplicates are handled, if applicable.
+         
+  4. Filtering and Sorting Testing:
+   - Filter Tasks:
+       - Add tasks and mark some as complete.
+       - Use the filter options (All, Completed, Incomplete) and verify that the task list displays correctly according to the selected filter.
+   - Sort Tasks:
+       - Add tasks in random order.
+       - Change the sort order (Ascending, Descending) and ensure tasks are sorted alphabetically based on the selected order.
+  5. LocalStorage Testing
+   - Data Persistence:
+       - Add, complete, and remove tasks.
+       - Refresh the browser and ensure the tasks persist as expected (tasks should be retrieved from localStorage).
+       - Clear localStorage and verify the application handles the absence of tasks correctly.
+         
+  6. UI/UX Testing:
 Responsive Design:
 Test the application on different screen sizes (mobile, tablet, desktop).
 Ensure the layout is responsive and elements are displayed correctly.
